@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #431568;
+    font-size: 18px;
+    font-weight: 250;
+    font-stretch: expanded;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100,
+        "YTLC" 500;
+    
+}
+.companyKaNaam{
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
+color: rgb(244, 249, 243);
+}
+
+  
+
+.logo {
+    width: 90px;
+    height: auto;
+    margin-right: 2px;
+    padding: 2px;
+}
+.navbar {
+    overflow: hidden;
+    justify-content: flex-start;
+    margin-left: 710px;
+    margin-right: 12px;
+}
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    background-color: #431568;
+}
+.navbar ul li {
+    flex: 1;
+    top: 0;
+    right: 0;
+
+}
+.navbar ul li a {
+    display: block;
+    color: #431568;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    top: 0px;
+    right: 0px;
+    font-weight: bold;
+}
+.navbar ul li a:hover {
+    color: rgb(16, 12, 12);
+    border: 2px black solid;
+    transform: scale(1.08);
+}
+.n1{
+    padding: 2px 5px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+a{
+    margin-right: 10px;
+    border: 1px rgb(9, 1, 1) solid;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 28px;
+    font-stretch: expanded;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100px;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100,
+        "YTLC" 500;
+}
+

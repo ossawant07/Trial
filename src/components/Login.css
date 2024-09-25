@@ -1,0 +1,67 @@
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #efecf2;
+  }
+  
+  .form-container {
+    background: white;
+    padding: 70px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 250;
+    font-stretch: expanded;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100,
+        "YTLC" 500;
+    
+  }
+  
+  .input-container {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .input-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .input-container input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .NahiHaiKya p {
+    margin-top: 10px;
+    color: #007bff;
+    cursor: pointer;
+  }
+.form-container button {
+    width: 60%;
+    padding: 10px;
+    background-color: #431568;
+    color: rgb(237, 223, 223);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .form-container button:hover {
+    background-color: #fdd8d8;
+    color: black;
+  }
+  
+  
